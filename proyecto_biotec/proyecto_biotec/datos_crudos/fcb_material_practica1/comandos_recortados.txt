@@ -1,0 +1,52 @@
+   41  whoami
+   42  #ya sabemos el nombre de usuario#
+   43  pwd
+   44  #ya sabemos la carpeta en la que nos situamos#
+   45  #si, la carpeta coincide con mi home#
+   46  ls
+   47  #vemos que el directorio de interes se encuenta aqui#
+   48  cd fcb_material_practica1
+   49  ls
+   50  #ya sabemos que estamos en el directorio de interes#
+   51  ls -a
+   52  #Con el comando que acabamos de utilizar podemos visualizar los archivos ocultos que no se podrian ver con el comando base#
+   53  ls -1h
+   54  #con el comando que acabo de poner deberia de ver los archivos en una unica linea (cosa que a sucedid0) y tambien deberia ver el tamaño de los archivos (cosa que no a pasado)#
+   55  #Acabo de ver que es una l, no un 1, estoy ciego#
+   56  ls -lh
+   57  #magnifico, ahora se ven tarto en una sola linea como tambien su peso#
+   58  #la diferencia entre ambos comandos radica en que e -a da informacion oculta u el lh te muestra todo en una linea y ademas sus pesos#
+   59  ls -lhS
+   60  #para ordenarlos de mayor a menor hay que usar el argumento S (Que no se note que intento usar palabras mas tecnicas para irme adaptando)#
+   61  cat README.txt
+   62  man ls
+   63  ls --author
+   64  #me deberia de salir el nombre de creador, pero como no lo veo voy a probar otro#
+   65  ls --recursive
+   66  #el argumento recursive te permite ver la informacion que hay dentro de las subcarpetas#
+   67  history
+   68  #Ahora se todos los comandos que he utilizado#
+   69  history > comantos_T1
+   70  history > comantos_T1.txt
+   71  cat comandos_T1.txt
+   72  history
+   73  history > comandos_T1.txt
+   74  history > mis_comandos.txt
+   75  cat mis_comandos.txt
+   76  pwd
+   77  history > ~/Desktop/mis_comandos.txt
+   78  history > ~/Escritorio/mis_comandos.txt
+   79  cd ~
+   80  history > mis_comandos.txt
+   81  cat mis_comandos.txt
+   82  ls
+   83  pwd
+   84  cd Desktop
+   85  cd Escritorio
+   86  ls -F
+   87  cd escritorio
+   88  cd desktop
+   89  history > comandos.txt
+   90  ls
+   91  cat comandos.txt
+   92  history | sed -n '41,98p' > comandos_recortados.txt

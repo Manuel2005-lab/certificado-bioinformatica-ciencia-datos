@@ -1,0 +1,22 @@
+  206  mkdir temp_borrar
+  207  ls
+  208  cd temp_borrar
+  209  touch fdhjruy.txt
+  210  cd ..
+  211  cd temp_borrar
+  212  ls
+  213  cd ..
+  214  rmdir temp_borrar
+  215  rm -r temp_borrar
+  216  ls
+  217  cd ~
+  218  history > history > comandos4.txt
+  219  history | sed -n '206,219p' > comandos4.txt
+  220  history | sed -n '206,219p' > comandos_recortados3.txt
+  221  ls
+  222  cd  proyecto_biotec 
+  223  ls
+  224  cd 
+  225  cd  proyecto_biotec
+  226  cd scripts
+  227  history | sed -n '206,250p' > comandos_recortados3.txt

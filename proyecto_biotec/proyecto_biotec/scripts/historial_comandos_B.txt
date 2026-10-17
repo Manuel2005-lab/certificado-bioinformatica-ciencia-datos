@@ -1,0 +1,67 @@
+   93  mkdir proyecto_biotec/
+   94  cd proyecto_biotec/
+   95  mkdir -p datos_crudos datos_procesados scripts resutados documentacion
+   96  ls
+   97  cd ~
+   98  #me acabo de dar cuenta de que hace rato que no escribo, asi que en resumen hemos husado el mkdir para crear una carpeta a la que hemos entrado con cd y despues con mkdir y un argumento hemos creado varias carpetas a la vez. Despues de eso me he salido usando cd#
+   99  ls -F ~/proyecto_biotec
+  100  #con este comando podemos ver todas las ramificaciones de directorios que acabamos de crear#
+  101  cd resultados
+  102  cd resultados/
+  103  cd /proyecto_biotec/resultados
+  104  cd /proyecto_biotec
+  105  cd proyecto_biotec
+  106  cd resultados
+  107  ls
+  108  #Aqui estoy intentando entrar a resultados, pero como a mi portatil le falla la l he de renombrarlo#
+  109  mv resutados resultadod
+  110  cd resultados
+  111  #soy un desgraciado#
+  112  mv resutadod resultados
+  113  mv resultadod resultados
+  114  cd resultados
+  115  cat mis_resultados_finales.txt
+  116  cd mis_resultados_finales.txt
+  117  touch mis_resultados_finales.txt
+  118  touch mis\resultados\finales.txt
+  119  lc
+  120  ls
+  121  rm mis\resultados\finales.txt
+  122  ls
+  123  cd ..
+  124  ls
+  125  #ahora voy a crear documentos para las otras carpetas#
+  126  cd datos_crudos
+  127  touch datos_desordenadod.txt
+  128  ls
+  129  cd ..
+  130  cd datos_procesados
+  131  touch datos_organizados.txt
+  132  s
+  133  ls
+  134  cd ..
+  135  cd documentacion
+  136  touch documentos_firmados.txt
+  137  ls
+  138  cd ..
+  139  cd scripts
+  140  touch listado_de_codigos.txt
+  141  ls
+  142  cd ..
+  143  #Ya los he creado#
+  144  history > ~/home/mis_comandos2.txt
+  145  history > ~/Home/mis_comandos2.txt
+  146  cd ~
+  147  history > mis_comandos2.txt
+  148  ls
+  149  cd proyecto_biotec
+  150  ls
+  151  cd documentacion
+  152  cat > preguntas_resueltas.txt
+  153  ls
+  154  nano preguntas_resueltas.txt
+  155  history > mis_comandos3.txt
+  156  ls
+  157  history rm mis_comandos3.txt
+  158  cd ..
+  159  history > mis_comandos3.txt

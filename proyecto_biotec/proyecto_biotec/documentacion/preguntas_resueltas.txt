@@ -1,0 +1,3 @@
+x1-Kernel es el nivel mas profundo de un sistema operativo. Es el puente entre e software y hardware. Se usa para gestionar la memoria, CPU, Drivers, etc...oo
+2-El terminal es la ventana visual, se encarga de mostrar lo que haces. El Shell se encarga de leer las ordenes y datos y actuar en consecuencia
+3-Porque en sus inicios fue de codigo abierto y a partir de hay fui mejorado hasta llevarlo hacia la rama de la ciencia (tambien hacia otras, pero estas no importan ahora mismo)
